@@ -9,7 +9,7 @@ let userMessage = null;
 const inputInitHeight = chatInput.scrollHeight;
 
 // **IMPORTANT: Get your free API key from https://aistudio.google.com/app/apikey**
-const API_KEY = "PASTE-YOUR-API-KEY-HERE"; // Replace with your Gemini API key
+const API_KEY = "AIzaSyC_4iKkBfySVDER3KeznLHCyv2kl-liwXM"; // Replace with your Gemini API key
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 const createChatLi = (message, className) => {
